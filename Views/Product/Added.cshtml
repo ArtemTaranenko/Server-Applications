@@ -3,9 +3,18 @@
 <h1>Dodano product:</h1>
 
 <div class="w3-card">
-    <header class="w3-container w3-blue">
-        <h1>@Model.Name</h1>
-        <h1>@Model.Category</h1>
-        <h1>@Model.Tags</h1>
+    <header class="w3-container w3-purple">
+        <h1> Nazwa: @Model.Name</h1>
+        @if (Model.Category != null)
+        {
+            <h1>Kategoria: @Model.Category.Name</h1>
+        }
+        <h1> Tagi: 
+        @if (Model.Tags != null)
+        {
+            @foreach (var tag in Model.Tags)
+               @(tag.Name + " ")
+        }
+        </h1>
     </header>
 </div>

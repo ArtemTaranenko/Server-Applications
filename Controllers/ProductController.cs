@@ -38,6 +38,7 @@ namespace AS_Taranenko_lab1_gr1.Controllers
 
             return View();
         }
+
         [HttpPost]
         public IActionResult Add(Product product, List<int> tags)
         {
