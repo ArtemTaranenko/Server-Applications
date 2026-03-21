@@ -1,0 +1,31 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Product
+
+<h1>Dodaj product</h1>
+
+<form asp-controller="Product" asp-action="Add" method="post" class="w3-container">
+    <p>
+        <label asp-for="Name">Nazwa:</label>
+        <input asp-for="Name" class="w3-input w3-border" />
+    </p>
+    <p>
+        <label asp-for="Price">Cena:</label>
+        <textarea asp-for="Price" class="w3-input w3-border"></textarea>
+    </p>
+    <p>
+        <label asp-for="Category">Category:</label>
+        <select asp-for ="CategoryId" asp-items="@ViewBag.categories" class="w3-input w3-border"></select>
+    </p>
+    <p>
+        <label asp-for="Tags">Tagi:</label>
+        @foreach (var tag in ViewBag.tags)
+        {
+            <p>
+                <label>@tag.Text</label>
+                <input type="checkbox" name="Tags" value="@tag.Value" class="w3-check" />
+            </p>
+        }
+    </p>
+    <p>
+        <button type="submit" class="w3-btn w3-border">Dodaj</button>
+    </p>
+</form>

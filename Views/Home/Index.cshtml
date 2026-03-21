@@ -1,0 +1,79 @@
+﻿<h1>@ViewBag.Title</h1>
+
+<p>Witamy na stronie głównej</p>
+
+<p>
+    Artykuły:
+    
+    <ul>
+        <li> <a asp-controller="article" asp-action="index" asp-route-id="1"> Artykuł 1 </a></li>
+        <li> <a asp-controller="article" asp-action="index" asp-route-id="2"> Artykuł 2 </a></li>
+        <li> <a asp-controller="article" asp-action="index" asp-route-id="3"> Artykuł 3 </a></li>
+    </ul>
+</p>
+<p>
+   <a asp-controller="student" asp-action ="index"> Studenci</a>
+</p>
+
+<div class="w3-container">
+    <h2>Kategorie</h2>
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button w3-black">Wybierz kategorię</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+            @if (Model != null)
+            {
+                foreach (var cat in Model.Categories)
+                {
+                    <a href="#" class="w3-bar-item w3-button">@cat.Name</a>
+                }
+            }
+            else
+            {
+                <span class="w3-bar-item">Brak kategorii</span>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="w3-container">
+    <h2>Tagi</h2>
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button w3-black">Wybierz tag</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+            @if (Model != null)
+            {
+                foreach (var cat in Model.Tags)
+                {
+                    <a href="#" class="w3-bar-item w3-button">@cat.Name</a>
+                }
+            }
+            else
+            {
+                <span class="w3-bar-item">Brak tagów</span>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="w3-container">
+    <h2>Adresy</h2>
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button w3-black">Wybierz adress</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+            @if (Model != null)
+            {
+                foreach (var cat in Model.Adresses)
+                {
+                    <a href="#" class="w3-bar-item w3-button">@cat.City, @cat.PostalCode</a>
+                }
+            }
+            else
+            {
+                <span class="w3-bar-item">Brak adresów</span>
+            }
+        </div>
+    </div>
+</div>

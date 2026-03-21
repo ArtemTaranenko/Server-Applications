@@ -1,0 +1,17 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Adress
+
+<h1>Dodaj adress</h1>
+
+<form asp-action="Add" method="post" class="w3-container">
+    <p>
+        <label asp-for="City">Nazwa miasta:</label>
+        <input asp-for="City" class="w3-input w3-border" />
+    </p>
+    <p>
+        <label asp-for="PostalCode">Kod pocztowy miasta:</label>
+        <input asp-for="PostalCode" class="w3-input w3-border" />
+    </p>
+    <p>
+        <button type="submit" class="w3-btn w3-border">Dodaj</button>
+    </p>
+</form>

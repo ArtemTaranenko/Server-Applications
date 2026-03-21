@@ -1,0 +1,21 @@
+@model AS_Taranenko_lab1_gr1.Models.Student
+
+<h1>Informacje o studencie</h1>
+<div>
+    <dl>
+        <dt>Imię:</dt>
+        <dd>@Model.Name</dd>
+        <dt>Nazwisko:</dt>
+        <dd>@Model.Surname</dd>
+        <dt>Index:</dt>
+        <dd>@Model.Index</dd>
+        <dt>Data urodzenia:</dt>
+        <dd>@Model.BirthDate.ToShortDateString()</dd>
+        <dt>Kierunek:</dt>
+        <dd>@Model.Major</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-controller="Student" asp-action="Index">Powrót do listy</a>
+</p>
