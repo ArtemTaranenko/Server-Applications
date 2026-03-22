@@ -1,0 +1,27 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Product;
+
+<div class="w3-card">
+<header class="w3-container w3-blue">
+<h1>
+    Nazwa productu: @Model.Name
+</h1>
+</header>
+<div class="w3-card" style="background-color:white">
+    <h2> Cena productu: @Model.Price </h2>
+    @if (Model.Category != null)
+    {
+        <h2> Kategoria productu: @Model.Category.Name </h2>
+    }
+
+    <h2>
+        Tagi:
+        @if (Model.Tags != null)
+        {
+            @foreach (var tag in Model.Tags)
+            {
+                    <a asp-controller="Tag" asp-action="Products" asp-route-id="@tag.Id" style="margin-right: 5px"> @(tag.Name + " ")</a>
+            }
+        }
+    </h2>
+</div>
+</div>

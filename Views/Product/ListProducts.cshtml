@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AS_Taranenko_lab1_gr1.Models.Product>
+@using System.Linq
+
+@{
+    var last = Model.Last();
+}
+<div class="w3-card">
+    <header class="w3-container w3-purple">
+        @foreach (var product in Model)
+        {
+            @if (product.Equals(last))
+            {
+                <div class="w3-card" style="background-color:green">
+                        <h1>
+                            Nazwa productu: @product.Name
+                        </h1>
+                </div>
+                <div class="w3-card" style="background-color:navajowhite">
+                    <h2> Cena productu: @product.Price </h2>
+                        @if (product.Category != null)
+                        {
+                            <h2> Kategoria productu: @product.Category.Name </h2>
+                        }
+
+                        <h2>
+                            Tagi:
+                            @if (product.Tags != null)
+                            {
+                                @foreach (var tag in product.Tags)
+                                {
+                                    @tag.Name
+                                }
+                            }
+                        </h2>
+                </div>
+            }
+            else
+            {
+            <h1>
+                Nazwa productu: @product.Name
+            </h1>
+             <div class="w3-card" style="background-color:navajowhite"> 
+                    <h2> Cena productu: @product.Price </h2>
+                @if (product.Category != null)
+                {
+                <h2> Kategoria productu: @product.Category.Name </h2>
+            }
+
+            <h2> Tagi: 
+            @if (product.Tags != null)
+            {
+                    @foreach (var tag in product.Tags)
+                    {
+                        @tag.Name
+                    }
+                }
+            </h2>
+                </div>
+            }
+        }
+    </header>
+</div>
+

@@ -1,5 +1,57 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+
+<form method="get" asp-controller="Product" asp-action="Index">
+    <select name="categoryId" class="w3-select" style="border:solid 3px" onchange="this.form.submit()">
+        <option value="">Wybierz kategorię</option>
+        @foreach (var category in Model.Categories)
+        {
+            if (Model.SelectedCategoryId == category.Id)
+            {
+            <option value="@category.Id" selected>
+                @category.Name
+            </option>
+            }
+            else
+                {
+                <option value="@category.Id">
+                    @category.Name
+                </option>
+                }
+            }
+    </select>
+</form>
+
+<div class="w3-card" style="margin: 10px">
+    
+        @foreach (var product in Model.Products)
+    {
+        <header class="w3-container w3-purple">
+           <h1>
+                Nazwa productu: @product.Name
+            </h1>
+        </header>
+           <div class="w3-card" style="background-color:white">
+               <h2> Cena productu: @product.Price </h2>
+              @if (product.Category != null)
+                {
+                  <h2> Kategoria productu: @product.Category.Name </h2>
+                }
+
+                <h2>
+                   Tagi:
+                   @if (product.Tags != null)
+                     {
+                       @foreach (var tag in product.Tags)
+                        {
+                           @(tag.Name + " ")
+                         }
+                        }
+                    </h2>
+                <h2>
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id"> Sczegóły </a>
+                </h2>
+                </div>
+
+        }
+    
+</div>

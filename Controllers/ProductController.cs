@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
 namespace AS_Taranenko_lab1_gr1.Controllers
 {
@@ -19,11 +20,52 @@ namespace AS_Taranenko_lab1_gr1.Controllers
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
         });
 
-        public IActionResult Index(int id)
+        public IActionResult Index()
         {
-            var product = _dbContext.Products.FirstOrDefault(a => a.Id == id);
+            var model = new ProductViewModel()
+            {
+                Categories = _dbContext.Categories.ToList(),
+                Tags = _dbContext.Tags.ToList(),
+                Products = _dbContext.Products.ToList(),
+            };
 
-            return product is not null ? View(product) : ErrorView();
+            return model is not null ? View(model) : ErrorView();
+        }
+
+        [HttpGet]
+        public IActionResult Index(int? categoryId)
+        {
+            var products = _dbContext.Products.
+                Include(p => p.Category).
+                Include(p => p.Tags).
+                AsQueryable();
+
+            if (categoryId != null && categoryId.Value != 0)
+            {
+                products = products.Where(p => p.CategoryId == categoryId);
+            }
+
+            var model = new ProductViewModel()
+            {
+
+                Categories = _dbContext.Categories.ToList(),
+                Tags = _dbContext.Tags.ToList(),
+                Products = products.ToList(),
+                SelectedCategoryId = categoryId,
+            };
+
+            return model is not null ? View(model) : ErrorView();
+        }
+
+        public IActionResult Details(int id)
+        {
+            var product = _dbContext.Products.
+                Include(p => p.Category).
+                Include(p => p.Tags).
+                FirstOrDefault(p => p.Id == id);
+            if (product == null)
+                return NotFound();
+            return View(product);
         }
 
         public IActionResult Add()
@@ -59,7 +101,8 @@ namespace AS_Taranenko_lab1_gr1.Controllers
             try
             {
                 _dbContext.SaveChanges();
-                return View("Added", product);
+                var model = _dbContext.Products.ToList();
+                return View("ListProducts", model);
             }
             catch
             {

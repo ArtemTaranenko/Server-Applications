@@ -13,12 +13,13 @@ namespace AS_Taranenko_lab1_gr1.Controllers
         public IActionResult Index()
         {
             ViewBag.Title = "Home";
-            var model = new HomeView
+            var model = new HomeViewModel
             {
 
                 Categories = (ICollection<Category>)_dbContext.Categories.ToList(),
                 Tags = (ICollection<Tag>)_dbContext.Tags.ToList(),
                 Adresses = (ICollection<Adress>)_dbContext.Adresses.ToList(),
+                Products = (ICollection<Product>)_dbContext.Products.ToList()
 
 
             };

@@ -14,8 +14,20 @@ namespace AS_Taranenko_lab1_gr1.Controllers
         }
         public IActionResult Index()
         {
-            var allTags = _dbContext.Tags.ToList();
-            return View(allTags);
+            var tags = _dbContext.Tags.ToList();
+            return View(tags);
+        }
+
+        public IActionResult Products(int id)
+        {
+            var tag = _dbContext.Tags.
+                Include(t => t.Products).
+                FirstOrDefault(t => t.Id == id);
+
+            if (tag == null)
+                return NotFound();
+
+            return View(tag);
         }
 
         public IActionResult Add()

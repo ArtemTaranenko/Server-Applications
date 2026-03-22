@@ -1,9 +1,12 @@
-﻿@model AS_Taranenko_lab1_gr1.Models.Tag
-
-<h1> Tag </h1>
+﻿
+<h1> Tags </h1>
 
 <div class="w3-card">
-    <header div class="w3-container w3-purple">
-        <h1> @Model.Name </h1>
-    </header>
+    @foreach (var tag in Model)
+    {
+        <header div class="w3-container w3-yellow">
+            <a asp-controller="Tag" asp-action="Products" asp-route-id="tag.Id"> @tag.Name </a>
+        </header>
+
+    }
 </div>

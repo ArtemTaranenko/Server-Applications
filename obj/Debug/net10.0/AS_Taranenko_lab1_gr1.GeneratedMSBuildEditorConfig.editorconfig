@@ -66,12 +66,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Product/Added.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRlZC5jc2h0bWw=
+[D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Product/ListProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0UHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Shared/Error.cshtml]
@@ -100,6 +104,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Tag/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/Tag/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnXFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Uniwer/sem 6/Aplikacje serwerowe/AS_Taranenko_lab1_gr1/Views/_ViewImports.cshtml]
