@@ -3,10 +3,9 @@
     public class Adress
     {
         public int Id { get; set; }
-        //public int CustomerId { get; set; } = 0;
         public string City { get; set; }
         public string PostalCode { get; set; }
-
-        //public virtual Customer Customer { get; set; } = null!;
+        public int CustomerId { get; set; }
+        public virtual Customer Customer { get; set; } = null!;
     }
 }

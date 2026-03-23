@@ -5,17 +5,17 @@
     var last = Model.Last();
 }
 <div class="w3-card">
-    <header class="w3-container w3-purple">
+    
         @foreach (var product in Model)
         {
             @if (product.Equals(last))
             {
-                <div class="w3-card" style="background-color:green">
+                <header class="w3-container w3-green">
                         <h1>
                             Nazwa productu: @product.Name
                         </h1>
-                </div>
-                <div class="w3-card" style="background-color:navajowhite">
+                </header>
+                <div class="w3-card" style="background-color:white">
                     <h2> Cena productu: @product.Price </h2>
                         @if (product.Category != null)
                         {
@@ -28,18 +28,20 @@
                             {
                                 @foreach (var tag in product.Tags)
                                 {
-                                    @tag.Name
-                                }
+                            @(tag.Name + " ")
+                        }
                             }
                         </h2>
                 </div>
             }
             else
             {
+                <header class="w3-container w3-purple">
             <h1>
                 Nazwa productu: @product.Name
             </h1>
-             <div class="w3-card" style="background-color:navajowhite"> 
+            </header>
+             <div class="w3-card" style="background-color:white"> 
                     <h2> Cena productu: @product.Price </h2>
                 @if (product.Category != null)
                 {
@@ -51,13 +53,13 @@
             {
                     @foreach (var tag in product.Tags)
                     {
-                        @tag.Name
-                    }
+                           @(tag.Name + " ")
+                        }
                 }
             </h2>
                 </div>
             }
         }
-    </header>
+
 </div>
 

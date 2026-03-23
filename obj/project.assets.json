@@ -3186,23 +3186,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\AS_Taranenko_lab1_gr1.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Documents\\Taranenko\\Lab\\Server-Applications\\AS_Taranenko_lab1_gr1.csproj",
       "projectName": "AS_Taranenko_lab1_gr1",
-      "projectPath": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\AS_Taranenko_lab1_gr1.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Documents\\Taranenko\\Lab\\Server-Applications\\AS_Taranenko_lab1_gr1.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Documents\\Taranenko\\Lab\\Server-Applications\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

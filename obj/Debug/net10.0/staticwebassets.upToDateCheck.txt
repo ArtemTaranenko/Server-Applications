@@ -1,2 +1,2 @@
 wwwroot\css\site.css
-D:\Uniwer\sem 6\Aplikacje serwerowe\AS_Taranenko_lab1_gr1\wwwroot\css\site.css
+C:\Users\Student\Documents\Taranenko\Lab\Server-Applications\wwwroot\css\site.css
