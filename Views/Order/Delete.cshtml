@@ -1,0 +1,17 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Order
+
+<h1> Deleting order nr: </h1>
+
+<p> @Model.Id </p>
+
+<form asp-action="Delete" method="post" class="w3-container">
+    <p> Are you sure want to delete? </p>
+    <input type="hidden" asp-for="Id" />
+    <p>
+        <button type="submit" name="decision" class="w3-btn w3-border" value="Accept"> Yes</button>
+    </p>  &nbsp
+    <p>
+        <button type="submit" name="decision" class="w3-btn w3-border" value="Decline"> No</button>
+    </p>
+
+</form>

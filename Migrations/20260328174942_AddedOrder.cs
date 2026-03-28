@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AS_Taranenko_lab1_gr1.Migrations
 {
     /// <inheritdoc />
-    public partial class AddedOrders : Migration
+    public partial class AddedOrder : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -24,8 +24,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerProfileId = table.Column<int>(type: "int", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -40,7 +39,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Status = table.Column<int>(type: "int", nullable: false),
                     OrderId = table.Column<int>(type: "int", nullable: false),
-                    OrderStatusId = table.Column<int>(type: "int", nullable: false)
+                    OrderStatusHistoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -76,7 +75,8 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
-                    OrderStatusId = table.Column<int>(type: "int", nullable: false)
+                    OrderStatusId = table.Column<int>(type: "int", nullable: false),
+                    OrderStatusHistoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -92,7 +92,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         column: x => x.OrderStatusId,
                         principalTable: "OrderStatuses",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -141,7 +141,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         column: x => x.OrderStatusId,
                         principalTable: "OrderStatuses",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_OrderStatusHistories_Orders_OrderId",
                         column: x => x.OrderId,

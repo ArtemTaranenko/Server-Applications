@@ -1,0 +1,38 @@
+﻿
+@if (Model != null)
+{
+    foreach (var Order in Model){
+    <div class="w3-card">
+        <header class="w3-container" w3="yellow">
+            <h1>
+                Order nr @Order.Id
+            </h1>
+        </header>
+        <div style="background-color: seashell">
+            <h2>
+                Status: @Order.OrderStatus.Status
+            </h2> 
+            <h2>
+                Customer: @Order.Customer.Name
+            </h2>
+            <h2>
+                Created at: @Order.CreatedAt
+            </h2>
+           <div>
+                    <h2>Items:</h2> 
+                    @foreach (var item in Order.Items)
+                    {
+                       <h3>
+                        Name: @item.Product.Name
+                        Quantity: @item.Quantity
+                        UnitPrice: @item.UnitPrice
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Product.Id"> Product details</a>
+                       </h3>
+                            }
+                        
+           </div>
+           <a asp-controller="order" asp-action="delete"  asp-route-id="@Order.Id"> Delete </a>
+        </div>
+    </div>
+    }
+}

@@ -4,6 +4,7 @@ using AS_Taranenko_lab1_gr1;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AS_Taranenko_lab1_gr1.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260328174942_AddedOrder")]
+    partial class AddedOrder
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -85,7 +88,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.CustomerProfile", b =>
@@ -128,6 +131,9 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
+                    b.Property<int>("OrderStatusHistoryId")
+                        .HasColumnType("int");
+
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
 
@@ -147,6 +153,12 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderStatusHistoryId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -208,7 +220,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderItems");
+                    b.ToTable("Order_Item");
                 });
 
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.Product", b =>

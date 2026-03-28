@@ -15,8 +15,6 @@
         public int Id {  get; set; }
         public Status Status { get; set; }
         public virtual ICollection<Order>? Orders { get; set; }
-        public int OrderId { get; set; }
-        public int OrderStatusId { get; set; }
         public virtual ICollection<OrderStatusHistory>? OrderStatusHistories { get; set; }
     }
 }

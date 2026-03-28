@@ -7,9 +7,7 @@ namespace AS_Taranenko_lab1_gr1.Models
     public class Customer
     {
         public int Id {  get; set; }
-        public string Name { get; set; }
-        [ForeignKey(nameof(Id))]
-        public int CustomerProfileId { get; set; }
+        public string? Name { get; set; }
         public virtual CustomerProfile CustomerProfile { get; set; } = null!;
 
         public virtual ICollection<Adress> Adresses { get; set; } = null!;

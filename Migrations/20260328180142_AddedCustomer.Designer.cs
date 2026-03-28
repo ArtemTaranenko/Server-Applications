@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AS_Taranenko_lab1_gr1.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20260323123928_AddedOrders")]
-    partial class AddedOrders
+    [Migration("20260328180142_AddedCustomer")]
+    partial class AddedCustomer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -83,16 +83,12 @@ namespace AS_Taranenko_lab1_gr1.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CustomerProfileId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customer");
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.CustomerProfile", b =>
@@ -135,6 +131,9 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
+                    b.Property<int>("OrderStatusHistoryId")
+                        .HasColumnType("int");
+
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
 
@@ -158,7 +157,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
-                    b.Property<int>("OrderStatusId")
+                    b.Property<int>("OrderStatusHistoryId")
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
@@ -315,7 +314,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.HasOne("AS_Taranenko_lab1_gr1.Models.OrderStatus", "OrderStatus")
                         .WithMany("Orders")
                         .HasForeignKey("OrderStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Customer");
@@ -326,7 +325,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.OrderStatusHistory", b =>
                 {
                     b.HasOne("AS_Taranenko_lab1_gr1.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderStatusHistories")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -334,7 +333,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.HasOne("AS_Taranenko_lab1_gr1.Models.OrderStatus", "OrderStatus")
                         .WithMany("OrderStatusHistories")
                         .HasForeignKey("OrderStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Order");
@@ -351,7 +350,7 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                         .IsRequired();
 
                     b.HasOne("AS_Taranenko_lab1_gr1.Models.Product", "Product")
-                        .WithMany("Order_Items")
+                        .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -405,6 +404,8 @@ namespace AS_Taranenko_lab1_gr1.Migrations
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.Order", b =>
                 {
                     b.Navigation("Items");
+
+                    b.Navigation("OrderStatusHistories");
                 });
 
             modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.OrderStatus", b =>
@@ -412,11 +413,6 @@ namespace AS_Taranenko_lab1_gr1.Migrations
                     b.Navigation("OrderStatusHistories");
 
                     b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("AS_Taranenko_lab1_gr1.Models.Product", b =>
-                {
-                    b.Navigation("Order_Items");
                 });
 #pragma warning restore 612, 618
         }
