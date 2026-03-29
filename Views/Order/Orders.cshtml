@@ -31,7 +31,9 @@
                             }
                         
            </div>
+           <a asp-controller="order" asp-action="viewhistory" asp-route-id="@Order.Id"> View History</a>
            <a asp-controller="order" asp-action="delete"  asp-route-id="@Order.Id"> Delete </a>
+           <a asp-controller="order" asp-action="AddOrUpdate" asp-route-id="@Order.Id"> Edit </a>
         </div>
     </div>
     }

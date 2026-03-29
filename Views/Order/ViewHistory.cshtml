@@ -1,0 +1,31 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Order
+
+@if (Model == null)
+{
+    <div class="w3-card"> 
+        Not Found
+
+    </div>
+}
+else
+{
+
+    <div class="w3-card">
+        <header class="w3-container w3-purple">
+            Order nr: @Model.Id
+        </header>
+        <div>
+        @if (Model.OrderStatusHistories != null)
+        {
+            @foreach (var status in Model.OrderStatusHistories)
+            {
+                @if (status.OrderStatus !=null)
+                {
+                <h2> Status: @status.OrderStatus.Status </h2>
+                <h2> Changed at: @status.ChangedAt </h2>
+                }
+            }
+        }
+        </div>
+    </div>
+}

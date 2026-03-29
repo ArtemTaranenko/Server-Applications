@@ -1,0 +1,33 @@
+﻿@model AS_Taranenko_lab1_gr1.Models.Order
+
+<h1> @ViewBag.Header </h1>
+
+<form asp-controller="Order" asp-action="AddOrUpdate" method="post" class="w3-container">
+    <input asp-for="Id" type="hidden" />
+    <p>
+        <label asp-for="CustomerId"> Customer: </label>
+        <select asp-for="CustomerId" asp-items="@ViewBag.CustomersList" class="w3-input w3-border"></select>
+        <span asp-validation-for="CustomerId" class="text-danger"></span>
+    </p>
+    <p> Items: </p>
+    @foreach (var item in (List<SelectListItem>)ViewBag.ItemsList)
+        {
+            var selectedItems = ViewBag.SelectedItems as List<int> ?? new List<int>();
+            bool isChecked = selectedItems.Contains(int.Parse(item.Value));
+
+            <p>
+                <label> @item.Text</label>
+                <input type="checkbox" name="items" value="@item.Value" class="w3-check" checked="@isChecked"/>
+            </p>
+        }
+    @if (ViewBag.ButtonText == "Edit")
+        {
+        <label asp-for="OrderStatusId"> Status: </label>
+        <select asp-for="OrderStatusId" asp-items="@ViewBag.StatusList" class="w3-input w3-border"></select>
+        <span asp-validation-for="OrderStatusId" class="text-danger"></span>
+        }
+        
+    <p>
+        <button type="submit" class="w3-btn w3-border">@ViewBag.ButtonText</button>
+    </p>
+</form>
