@@ -155,6 +155,13 @@ namespace AS_Taranenko_lab1_gr1.Controllers
                 order.OrderStatusId = 1;
                 order.CreatedAt = DateTime.Now;
                 order.Items = selectedItems;
+                var history = new OrderStatusHistory
+                {
+                    Order = order,
+                    OrderStatusId = order.OrderStatusId,
+                    ChangedAt = DateTime.Now
+                };
+                order.OrderStatusHistories.Add(history);
 
                 _dbContext.Orders.Add(order);
             }
@@ -173,6 +180,13 @@ namespace AS_Taranenko_lab1_gr1.Controllers
                 {
                     existingOrder.Items!.Add(item);
                 }
+                var history = new OrderStatusHistory
+                {
+                    Order = order,
+                    OrderStatusId = order.OrderStatusId,
+                    ChangedAt = DateTime.Now
+                };
+                existingOrder.OrderStatusHistories.Add(history);
             }
 
             try

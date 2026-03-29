@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AS_Taranenko_lab1_gr1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d64c50fb90bd166fa393bd44db085f4424ca47b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bc0d141d8a4e6f0e0479e868f27825f6b312d00")]
 [assembly: System.Reflection.AssemblyProductAttribute("AS_Taranenko_lab1_gr1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AS_Taranenko_lab1_gr1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

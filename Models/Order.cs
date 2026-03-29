@@ -17,6 +17,7 @@ namespace AS_Taranenko_lab1_gr1.Models
         public int OrderStatusId { get; set; }
         [ValidateNever]
         public virtual OrderStatus OrderStatus { get; set; } = null!;
-        public virtual ICollection<OrderStatusHistory>? OrderStatusHistories { get; set; }
+        [ValidateNever]
+        public virtual ICollection<OrderStatusHistory> OrderStatusHistories { get; set; } = new List<OrderStatusHistory>();
     }
 }

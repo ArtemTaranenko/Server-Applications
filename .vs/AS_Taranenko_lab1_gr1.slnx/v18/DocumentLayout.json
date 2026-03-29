@@ -3,20 +3,27 @@
   "WorkspaceRootPath": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\models\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:models\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\models\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:models\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.OrderStatusHistories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +36,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|solutionrelative:views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76EBDEAE-2B66-646D-F17F-D95A3CE59EEA}|AS_Taranenko_lab1_gr1.csproj|d:\\uniwer\\sem 6\\aplikacje serwerowe\\as_taranenko_lab1_gr1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -197,11 +200,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "dbo.OrderStatusHistories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.OrderStatusHistories.sql",
+              "ToolTip": "dbo.OrderStatusHistories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-29T22:01:44.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Order\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Delete.cshtml",
@@ -209,18 +222,17 @@
               "RelativeToolTip": "Views\\Order\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-28T23:15:52.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T23:15:52.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAMwLIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAuwLsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T19:18:49.343Z",
               "EditorCaption": ""
@@ -233,26 +245,27 @@
               "RelativeDocumentMoniker": "Models\\Order.cs",
               "ToolTip": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T11:36:26.529Z"
+              "WhenOpened": "2026-03-23T11:36:26.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderStatusHistory.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\OrderStatusHistory.cs",
               "RelativeDocumentMoniker": "Models\\OrderStatusHistory.cs",
               "ToolTip": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\OrderStatusHistory.cs",
               "RelativeToolTip": "Models\\OrderStatusHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T11:57:42.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -264,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
@@ -276,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -288,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -300,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Orders.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Order\\Orders.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Orders.cshtml",
@@ -312,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AddOrUpdate.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Order\\AddOrUpdate.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\AddOrUpdate.cshtml",
@@ -324,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ViewHistory.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Order\\ViewHistory.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\ViewHistory.cshtml",
@@ -336,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
@@ -348,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Models\\OrderStatus.cs",
@@ -360,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -372,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
@@ -384,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -396,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ListProducts.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Product\\ListProducts.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\ListProducts.cshtml",
@@ -408,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -420,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -432,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "dbo.Orders.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Orders.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Orders.sql",
@@ -441,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "dbo.OrderStatuses.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.OrderStatuses.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.OrderStatuses.sql",
@@ -450,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "dbo.Customers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Customers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Customers.sql",
@@ -459,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\MyDbContext.cs",
               "RelativeDocumentMoniker": "MyDbContext.cs",
@@ -471,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20260328200559_AddedOrderItems.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Migrations\\20260328200559_AddedOrderItems.cs",
               "RelativeDocumentMoniker": "Migrations\\20260328200559_AddedOrderItems.cs",
@@ -483,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Order_Item.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Order_Item.cs",
               "RelativeDocumentMoniker": "Models\\Order_Item.cs",
@@ -495,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "20260328180142_AddedCustomer.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Migrations\\20260328180142_AddedCustomer.cs",
               "RelativeDocumentMoniker": "Migrations\\20260328180142_AddedCustomer.cs",
@@ -507,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CustomerProfile.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\CustomerProfile.cs",
               "RelativeDocumentMoniker": "Models\\CustomerProfile.cs",
@@ -519,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Adress.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Adress.cs",
               "RelativeDocumentMoniker": "Models\\Adress.cs",
@@ -531,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20260328173149_AddedOrder.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Migrations\\20260328173149_AddedOrder.cs",
               "RelativeDocumentMoniker": "Migrations\\20260328173149_AddedOrder.cs",
@@ -543,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -555,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "20260328174942_AddedOrder.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Migrations\\20260328174942_AddedOrder.cs",
               "RelativeDocumentMoniker": "Migrations\\20260328174942_AddedOrder.cs",
@@ -567,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Customer_Profile.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Customer_Profile.cs",
               "RelativeDocumentMoniker": "Models\\Customer_Profile.cs",
@@ -579,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -591,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
@@ -603,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Tag\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Tag\\Index.cshtml",
@@ -615,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Products.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Tag\\Products.cshtml",
               "RelativeDocumentMoniker": "Views\\Tag\\Products.cshtml",
@@ -627,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
@@ -639,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "TagController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\TagController.cs",
               "RelativeDocumentMoniker": "Controllers\\TagController.cs",
@@ -651,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Added.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Category\\Added.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Added.cshtml",
@@ -663,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Tag.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Models\\Tag.cs",
@@ -675,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProductViewModel.cs",
@@ -687,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -699,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "dbo.Categories.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Categories.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Categories.sql",
@@ -708,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "dbo.Products.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Products.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AS_Taranenko_lab1_gr1/True/SqlTable/dbo.Products.sql",
@@ -717,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Added.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Tag\\Added.cshtml",
               "RelativeDocumentMoniker": "Views\\Tag\\Added.cshtml",
@@ -729,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -741,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Views\\Category\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Add.cshtml",
@@ -753,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Uniwer\\sem 6\\Aplikacje serwerowe\\AS_Taranenko_lab1_gr1\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
